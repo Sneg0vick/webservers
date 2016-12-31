@@ -1,0 +1,40 @@
+[Fri Dec 30 14:29:58 2016] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Fri Dec 30 14:29:58 2016] [warn] pid file Z:/usr/local/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Dec 30 14:29:58 2016] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Fri Dec 30 14:29:58 2016] [notice] Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 configured -- resuming normal operations
+[Fri Dec 30 14:29:58 2016] [notice] Server built: Apr 20 2012 18:42:30
+[Fri Dec 30 14:29:58 2016] [notice] Parent: Created child process 3648
+[Fri Dec 30 14:29:58 2016] [notice] Disabled use of AcceptEx() WinSock2 API
+[Fri Dec 30 14:29:58 2016] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Fri Dec 30 14:29:59 2016] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Fri Dec 30 14:29:59 2016] [notice] Child 3648: Child process is running
+[Fri Dec 30 14:29:59 2016] [notice] Child 3648: Acquired the start mutex.
+[Fri Dec 30 14:29:59 2016] [notice] Child 3648: Starting 25 worker threads.
+[Fri Dec 30 14:29:59 2016] [notice] Child 3648: Listening on port 443.
+[Fri Dec 30 14:29:59 2016] [notice] Child 3648: Listening on port 8648.
+[Fri Dec 30 14:29:59 2016] [notice] Child 3648: Listening on port 443.
+[Fri Dec 30 14:29:59 2016] [notice] Child 3648: Listening on port 80.
+[Fri Dec 30 15:30:07 2016] [error] [client 127.0.0.1] File does not exist: Z:/home/test3/www/templates/gk_game/images/logo.png, referer: http://test3/
+[Fri Dec 30 15:30:07 2016] [error] [client 127.0.0.1] File does not exist: Z:/home/test3/www/templates/gk_game/images/logo.png, referer: http://test3/
+[Fri Dec 30 17:17:41 2016] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function get() on a non-object in Z:\\home\\test1\\www\\templates\\gk_game\\lib\\menu\\GKMenu.php on line 87, referer: http://test1/index.php/features/item/256-metal-gear-rising-pc-edition-coming-soon
+[Fri Dec 30 17:17:41 2016] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/
+[Fri Dec 30 17:17:49 2016] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function get() on a non-object in Z:\\home\\test1\\www\\templates\\gk_game\\lib\\menu\\GKMenu.php on line 87, referer: http://test1/index.php/features/item/256-metal-gear-rising-pc-edition-coming-soon
+[Fri Dec 30 17:30:49 2016] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function get() on a non-object in Z:\\home\\test1\\www\\templates\\gk_game\\lib\\menu\\GKMenu.php on line 87, referer: http://test1/index.php/features/item/256-metal-gear-rising-pc-edition-coming-soon
+[Fri Dec 30 17:30:49 2016] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/
+[Fri Dec 30 17:32:15 2016] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function get() on a non-object in Z:\\home\\test1\\www\\templates\\gk_game\\lib\\menu\\GKMenu.php on line 87, referer: http://test1/index.php/features/item/256-metal-gear-rising-pc-edition-coming-soon
+[Fri Dec 30 17:32:15 2016] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/
+[Fri Dec 30 17:32:46 2016] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function get() on a non-object in Z:\\home\\test1\\www\\templates\\gk_game\\lib\\menu\\GKMenu.php on line 87, referer: http://test1/index.php/features/item/256-metal-gear-rising-pc-edition-coming-soon
+[Fri Dec 30 17:32:46 2016] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/
+[Fri Dec 30 17:33:16 2016] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function get() on a non-object in Z:\\home\\test1\\www\\templates\\gk_game\\lib\\menu\\GKMenu.php on line 87, referer: http://test1/index.php/features/item/256-metal-gear-rising-pc-edition-coming-soon
+[Fri Dec 30 17:33:16 2016] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/
+[Fri Dec 30 17:40:42 2016] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function get() on a non-object in Z:\\home\\test1\\www\\templates\\gk_game\\lib\\menu\\GKMenu.php on line 87, referer: http://test1/index.php/features/item/256-metal-gear-rising-pc-edition-coming-soon
+[Fri Dec 30 17:40:42 2016] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/
+[Sat Dec 31 15:05:48 2016] [error] [client 127.0.0.1] File does not exist: Z:/home/test3/www/templates/gk_game/images/logo.png, referer: http://test3/
+[Sat Dec 31 15:22:16 2016] [error] [client 127.0.0.1] File does not exist: Z:/home/test2/www/favicon.ico, referer: http://test2/
+[Sat Dec 31 15:22:35 2016] [error] [client 127.0.0.1] File does not exist: Z:/home/test2/www/\xd1\x84\xd0\xb2\xd1\x8c\xd1\x88\xd1\x82
+[Sat Dec 31 17:01:04 2016] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sat Dec 31 17:01:04 2016] [notice] Child 3648: Exit event signaled. Child process is ending.
+[Sat Dec 31 17:01:05 2016] [notice] Child 3648: Released the start mutex
+[Sat Dec 31 17:01:05 2016] [notice] Child 3648: All worker threads have exited.
+[Sat Dec 31 17:01:05 2016] [notice] Child 3648: Child process is exiting
+[Sat Dec 31 17:01:05 2016] [notice] Parent: Child process exited successfully.

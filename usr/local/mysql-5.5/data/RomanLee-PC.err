@@ -1,0 +1,423 @@
+161228 17:53:55 [Note] Plugin 'FEDERATED' is disabled.
+161228 17:53:55 InnoDB: The InnoDB memory heap is disabled
+161228 17:53:55 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+161228 17:53:55 InnoDB: Compressed tables use zlib 1.2.3
+161228 17:53:55 InnoDB: Initializing buffer pool, size = 128.0M
+161228 17:53:55 InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file .\ibdata1 did not exist:
+InnoDB: a new database to be created!
+161228 17:53:55  InnoDB: Setting file .\ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+161228 17:54:05  InnoDB: Log file .\ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+161228 17:54:06  InnoDB: Log file .\ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: 127 rollback segment(s) active.
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+161228 17:54:17  InnoDB: Waiting for the background threads to start
+161228 17:54:18 InnoDB: 1.1.8 started; log sequence number 0
+161228 17:54:18 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+161228 17:54:18 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+161228 17:54:18 [Note] Server socket created on IP: '127.0.0.1'.
+161228 17:54:41 [Note] Event Scheduler: Loaded 0 events
+161228 17:54:41 [Note] \usr\local\mysql-5.5\bin\mysqld.exe: ready for connections.
+Version: '5.5.25'  socket: ''  port: 3306  MySQL Community Server (GPL)
+161228 18:06:32 [Note] Plugin 'FEDERATED' is disabled.
+161228 18:06:32 InnoDB: The InnoDB memory heap is disabled
+161228 18:06:32 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+161228 18:06:32 InnoDB: Compressed tables use zlib 1.2.3
+161228 18:06:32 InnoDB: Initializing buffer pool, size = 128.0M
+161228 18:06:32 InnoDB: Completed initialization of buffer pool
+161228 18:06:32 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161228 18:06:32  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161228 18:06:33  InnoDB: Waiting for the background threads to start
+161228 18:06:34 InnoDB: 1.1.8 started; log sequence number 1595675
+161228 18:06:34 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+161228 18:06:34 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+161228 18:06:34 [Note] Server socket created on IP: '127.0.0.1'.
+161228 18:06:44 [Note] Event Scheduler: Loaded 0 events
+161228 18:06:44 [Note] \usr\local\mysql-5.5\bin\mysqld.exe: ready for connections.
+Version: '5.5.25'  socket: ''  port: 3306  MySQL Community Server (GPL)
+161228 18:19:55 [Note] Plugin 'FEDERATED' is disabled.
+161228 18:19:55 InnoDB: The InnoDB memory heap is disabled
+161228 18:19:55 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+161228 18:19:55 InnoDB: Compressed tables use zlib 1.2.3
+161228 18:19:55 InnoDB: Initializing buffer pool, size = 128.0M
+161228 18:19:55 InnoDB: Completed initialization of buffer pool
+161228 18:19:55 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161228 18:19:55  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161228 18:19:58  InnoDB: Waiting for the background threads to start
+161228 18:19:59 InnoDB: 1.1.8 started; log sequence number 2898553
+161228 18:19:59 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+161228 18:19:59 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+161228 18:19:59 [Note] Server socket created on IP: '127.0.0.1'.
+161228 18:20:15 [Note] Event Scheduler: Loaded 0 events
+161228 18:20:15 [Note] \usr\local\mysql-5.5\bin\mysqld.exe: ready for connections.
+Version: '5.5.25'  socket: ''  port: 3306  MySQL Community Server (GPL)
+161228 18:22:47 [Note] Plugin 'FEDERATED' is disabled.
+161228 18:22:47 InnoDB: The InnoDB memory heap is disabled
+161228 18:22:47 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+161228 18:22:47 InnoDB: Compressed tables use zlib 1.2.3
+161228 18:22:47 InnoDB: Initializing buffer pool, size = 128.0M
+161228 18:22:47 InnoDB: Completed initialization of buffer pool
+161228 18:22:47 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161228 18:22:47  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161228 18:22:48  InnoDB: Waiting for the background threads to start
+161228 18:22:49 InnoDB: 1.1.8 started; log sequence number 2898553
+161228 18:22:49 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+161228 18:22:49 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+161228 18:22:49 [Note] Server socket created on IP: '127.0.0.1'.
+161228 18:23:08 [Note] Event Scheduler: Loaded 0 events
+161228 18:23:08 [Note] \usr\local\mysql-5.5\bin\mysqld.exe: ready for connections.
+Version: '5.5.25'  socket: ''  port: 3306  MySQL Community Server (GPL)
+161228 18:31:50 [Note] Plugin 'FEDERATED' is disabled.
+161228 18:31:50 InnoDB: The InnoDB memory heap is disabled
+161228 18:31:50 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+161228 18:31:50 InnoDB: Compressed tables use zlib 1.2.3
+161228 18:31:50 InnoDB: Initializing buffer pool, size = 128.0M
+161228 18:31:50 InnoDB: Completed initialization of buffer pool
+161228 18:31:50 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161228 18:31:50  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161228 18:31:50  InnoDB: Waiting for the background threads to start
+161228 18:31:51 InnoDB: 1.1.8 started; log sequence number 3126236
+161228 18:31:51 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+161228 18:31:51 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+161228 18:31:51 [Note] Server socket created on IP: '127.0.0.1'.
+161228 18:31:51 [Note] Event Scheduler: Loaded 0 events
+161228 18:31:51 [Note] \usr\local\mysql-5.5\bin\mysqld.exe: ready for connections.
+Version: '5.5.25'  socket: ''  port: 3306  MySQL Community Server (GPL)
+161228 18:34:27 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:34:27 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:34:37 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:34:37 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:35:32 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:35:32 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:35:34 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:35:34 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:35:39 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:35:39 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:35:41 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:35:41 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:35:43 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:35:43 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:35:57 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:35:57 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:36:21 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:36:21 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:36:32 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:36:32 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:36:35 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:36:35 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:36:40 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:36:40 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:36:41 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:36:41 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:36:43 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:36:43 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:36:51 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:36:51 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:36:59 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:36:59 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:37:02 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:37:02 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:37:04 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:37:04 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:37:09 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:37:09 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:37:30 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:37:30 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:37:37 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:37:37 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:37:41 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:37:41 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:37:49 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:37:49 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:37:57 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:37:57 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:38:05 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:38:05 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:38:09 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:38:09 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:38:18 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:38:18 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:38:21 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:38:21 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:38:22 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:38:22 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:38:35 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:38:35 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:38:43 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:38:43 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:38:50 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:38:50 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:39:21 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:39:21 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:39:41 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:39:41 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 18:46:41 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 18:46:41 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161228 19:12:26 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161228 19:12:26 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:36:35 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:36:35 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:36:54 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:36:54 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:36:58 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:36:58 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:37:20 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:37:20 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:39:03 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:39:03 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:39:06 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:39:06 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:39:11 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:39:11 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:39:17 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:39:17 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:40:38 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:40:38 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:41:28 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:41:28 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:42:03 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:42:03 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:42:06 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:42:06 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:42:10 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:42:10 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:42:13 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:42:13 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:42:52 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:42:52 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:43:03 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:43:03 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:43:07 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:43:07 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:43:19 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:43:19 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:43:59 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:43:59 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:44:03 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:44:03 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:44:18 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:44:18 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:45:25 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:45:25 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:46:09 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:46:09 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:47:06 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:47:06 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:47:09 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:47:09 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:48:23 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:48:23 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:48:33 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:48:33 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:48:43 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:48:43 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:48:48 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:48:48 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:48:52 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:48:52 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:49:12 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:49:12 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:49:20 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:49:20 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:51:22 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:51:22 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:52:09 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:52:09 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:52:14 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:52:14 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:52:17 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:52:17 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:52:46 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:52:46 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:54:27 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:54:27 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:55:46 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:55:46 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:56:03 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:56:03 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:56:14 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:56:14 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:56:18 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:56:18 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229  9:58:02 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229  9:58:02 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:03:55 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:03:55 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:03:59 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:03:59 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:04:02 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:04:02 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:05:31 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:05:31 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:09:39 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:09:39 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:09:44 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:09:44 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:09:48 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:09:48 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:09:53 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:09:53 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:10:03 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:10:03 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:10:05 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:10:05 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:11:48 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:11:48 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:12:07 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:12:07 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:12 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:12 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:19 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:19 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:19 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:19 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:23 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:23 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:23 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:23 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:27 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:27 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:33 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:33 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:36 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:36 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:36 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:23:36 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:24:12 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:24:12 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:24:19 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:24:19 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:24:27 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:24:27 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:24:27 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:24:27 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:24:35 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:24:35 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:24:45 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:24:45 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:33:51 [Note] Plugin 'FEDERATED' is disabled.
+161229 10:33:51 InnoDB: The InnoDB memory heap is disabled
+161229 10:33:51 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+161229 10:33:51 InnoDB: Compressed tables use zlib 1.2.3
+161229 10:33:51 InnoDB: Initializing buffer pool, size = 128.0M
+161229 10:33:51 InnoDB: Completed initialization of buffer pool
+161229 10:33:51 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161229 10:33:51  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161229 10:33:52  InnoDB: Waiting for the background threads to start
+161229 10:33:53 InnoDB: 1.1.8 started; log sequence number 22135121
+161229 10:33:53 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+161229 10:33:53 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+161229 10:33:53 [Note] Server socket created on IP: '127.0.0.1'.
+161229 10:33:53 [Note] Event Scheduler: Loaded 0 events
+161229 10:33:53 [Note] \usr\local\mysql-5.5\bin\mysqld.exe: ready for connections.
+Version: '5.5.25'  socket: ''  port: 3306  MySQL Community Server (GPL)
+161229 10:39:31 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:39:31 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:39:35 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:39:35 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:39:35 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Out of sort memory, consider increasing server sort buffer size
+161229 10:39:35 [ERROR] \usr\local\mysql-5.5\bin\mysqld.exe: Sort aborted: Out of sort memory, consider increasing server sort buffer size
+161229 10:42:15 [Note] Plugin 'FEDERATED' is disabled.
+161229 10:42:15 InnoDB: The InnoDB memory heap is disabled
+161229 10:42:15 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+161229 10:42:15 InnoDB: Compressed tables use zlib 1.2.3
+161229 10:42:15 InnoDB: Initializing buffer pool, size = 128.0M
+161229 10:42:15 InnoDB: Completed initialization of buffer pool
+161229 10:42:15 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161229 10:42:15  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161229 10:42:16  InnoDB: Waiting for the background threads to start
+161229 10:42:17 InnoDB: 1.1.8 started; log sequence number 38373099
+161229 10:42:17 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+161229 10:42:17 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+161229 10:42:17 [Note] Server socket created on IP: '127.0.0.1'.
+161229 10:42:17 [Note] Event Scheduler: Loaded 0 events
+161229 10:42:17 [Note] \usr\local\mysql-5.5\bin\mysqld.exe: ready for connections.
+Version: '5.5.25'  socket: ''  port: 3306  MySQL Community Server (GPL)
+161229 14:51:04 [Note] Plugin 'FEDERATED' is disabled.
+161229 14:51:04 InnoDB: The InnoDB memory heap is disabled
+161229 14:51:04 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+161229 14:51:04 InnoDB: Compressed tables use zlib 1.2.3
+161229 14:51:04 InnoDB: Initializing buffer pool, size = 128.0M
+161229 14:51:04 InnoDB: Completed initialization of buffer pool
+161229 14:51:04 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161229 14:51:04  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161229 14:51:05  InnoDB: Waiting for the background threads to start
+161229 14:51:06 InnoDB: 1.1.8 started; log sequence number 79104356
+161229 14:51:06 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+161229 14:51:06 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+161229 14:51:06 [Note] Server socket created on IP: '127.0.0.1'.
+161229 14:51:06 [Note] Event Scheduler: Loaded 0 events
+161229 14:51:06 [Note] \usr\local\mysql-5.5\bin\mysqld.exe: ready for connections.
+Version: '5.5.25'  socket: ''  port: 3306  MySQL Community Server (GPL)
+161230 14:29:57 [Note] Plugin 'FEDERATED' is disabled.
+161230 14:29:57 InnoDB: The InnoDB memory heap is disabled
+161230 14:29:57 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+161230 14:29:57 InnoDB: Compressed tables use zlib 1.2.3
+161230 14:29:57 InnoDB: Initializing buffer pool, size = 128.0M
+161230 14:29:57 InnoDB: Completed initialization of buffer pool
+161230 14:29:57 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161230 14:29:57  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161230 14:29:58  InnoDB: Waiting for the background threads to start
+161230 14:29:59 InnoDB: 1.1.8 started; log sequence number 83208851
+161230 14:29:59 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+161230 14:29:59 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+161230 14:29:59 [Note] Server socket created on IP: '127.0.0.1'.
+161230 14:29:59 [Note] Event Scheduler: Loaded 0 events
+161230 14:29:59 [Note] \usr\local\mysql-5.5\bin\mysqld.exe: ready for connections.
+Version: '5.5.25'  socket: ''  port: 3306  MySQL Community Server (GPL)

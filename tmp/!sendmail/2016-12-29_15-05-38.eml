@@ -1,0 +1,32 @@
+X-Sendmail-Cmdline: sendmail.pl -t -i -finfobiz@front.ru
+To: infobiz@front.ru
+Subject: =?utf-8?B?0J/QsNGA0LDQvNC10YLRgNGLINC60L7QvdGE0LjQs9GD0YDQsNGG0LjQuDog?=  =?utf-8?B?dGVzdDM=?=
+X-PHP-Originating-Script: 0:class.phpmailer.php
+Date: Thu, 29 Dec 2016 16:05:38 +0400
+From: admin <infobiz@front.ru>
+Reply-To: admin <infobiz@front.ru>
+Message-ID: <bc0ac50b7ea407bb7259638475844884@test3>
+X-Mailer: PHPMailer 5.2.14 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Параметры конфигурации для сайта:
+
+Название сайта:                 test3
+
+Подробности учетной записи администратора:
+================================================================================
+E-mail:                                      infobiz@front.ru
+Имя пользователя:             admin
+Пароль администратора:   admin
+
+Конфигурация базы данных
+==============================================
+Тип базы данных:                mysqli
+Имя сервера базы данных: localhost
+Имя пользователя:             test3
+Пароль:                                test3
+Имя базы данных:                test3
+Префикс таблиц:                 mx9v3_
+
