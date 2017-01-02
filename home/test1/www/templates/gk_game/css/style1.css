@@ -24,7 +24,7 @@ a:focus,
 #gkSidebar .box a:hover { color: #d82731; }
 #gkBannerRight { background: #26b1cf; }
 /*#gkBannerRight { background: #d82731; }*/
-#gkLogo.cssLogo { background-image: url('../images/style1/logo.png'); }
+#gkLogo.cssLogo { background-image: url('../images/style1/logo_top.png'); }
 #gkBreadcrumb .breadcrumbs li.separator i { color: #d82731; }
 #gkFooterNav li:before { background: #26b1cf; }
 /*#gkFooterNav li:before { background: #d82731; }*/
