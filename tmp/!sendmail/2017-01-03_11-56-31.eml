@@ -1,0 +1,25 @@
+X-Sendmail-Cmdline: sendmail.pl -t -i -finfobiz@front.ru
+To: teacher1@mail.ru
+Subject: =?utf-8?B?0JTQsNC90L3Ri9C1INC90L7QstC+0LPQviDQv9C+0LvRjNC30L7QstCw0YI=?=  =?utf-8?B?0LXQu9GP?=
+X-PHP-Originating-Script: 0:class.phpmailer.php
+Date: Tue, 3 Jan 2017 12:56:31 +0400
+From: test1 <infobiz@front.ru>
+Message-ID: <c7743b23176dab5cdc06d6585fe12132@test1>
+X-Mailer: PHPMailer 5.2.14 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Здравствуйте Учитель номер 1,
+
+
+Вы зарегистрированы на сайте «test1».
+
+Это письмо содержит логин и пароль для доступа к сайту http://test1/
+
+Логин: teacher1
+Пароль: teacher1
+
+
+Пожалуйста, не отвечайте на это письмо. Оно было сгенерировано автоматически, исключительно с целью проинформировать вас.
+
