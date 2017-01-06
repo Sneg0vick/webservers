@@ -1,25 +1,21 @@
-[Tue Jan 03 15:15:06 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Tue Jan 03 15:15:06 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Tue Jan 03 15:15:06 2017] [notice] Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 configured -- resuming normal operations
-[Tue Jan 03 15:15:06 2017] [notice] Server built: Apr 20 2012 18:42:30
-[Tue Jan 03 15:15:06 2017] [notice] Parent: Created child process 3520
-[Tue Jan 03 15:15:06 2017] [notice] Disabled use of AcceptEx() WinSock2 API
-[Tue Jan 03 15:15:07 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Tue Jan 03 15:15:07 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Tue Jan 03 15:15:07 2017] [notice] Child 3520: Child process is running
-[Tue Jan 03 15:15:07 2017] [notice] Child 3520: Acquired the start mutex.
-[Tue Jan 03 15:15:07 2017] [notice] Child 3520: Starting 25 worker threads.
-[Tue Jan 03 15:15:07 2017] [notice] Child 3520: Listening on port 443.
-[Tue Jan 03 15:15:07 2017] [notice] Child 3520: Listening on port 8648.
-[Tue Jan 03 15:15:07 2017] [notice] Child 3520: Listening on port 443.
-[Tue Jan 03 15:15:07 2017] [notice] Child 3520: Listening on port 80.
-[Tue Jan 03 15:40:16 2017] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected $end in Z:\\home\\test1\\www\\templates\\gk_game\\layouts\\blocks\\footer.php on line 24, referer: http://test1/
-[Tue Jan 03 15:40:16 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/
-[Tue Jan 03 15:40:25 2017] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_ENDIF in Z:\\home\\test1\\www\\templates\\gk_game\\layouts\\blocks\\footer.php on line 23, referer: http://test1/
-[Tue Jan 03 15:40:25 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/
-[Tue Jan 03 17:21:38 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
-[Tue Jan 03 17:21:38 2017] [notice] Child 3520: Exit event signaled. Child process is ending.
-[Tue Jan 03 17:21:39 2017] [notice] Child 3520: Released the start mutex
-[Tue Jan 03 17:21:39 2017] [notice] Child 3520: All worker threads have exited.
-[Tue Jan 03 17:21:39 2017] [notice] Child 3520: Child process is exiting
-[Tue Jan 03 17:21:39 2017] [notice] Parent: Child process exited successfully.
+[Fri Jan 06 17:15:42 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Fri Jan 06 17:15:43 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Fri Jan 06 17:15:43 2017] [notice] Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 configured -- resuming normal operations
+[Fri Jan 06 17:15:43 2017] [notice] Server built: Apr 20 2012 18:42:30
+[Fri Jan 06 17:15:43 2017] [notice] Parent: Created child process 5388
+[Fri Jan 06 17:15:43 2017] [notice] Disabled use of AcceptEx() WinSock2 API
+[Fri Jan 06 17:15:43 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Fri Jan 06 17:15:43 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Fri Jan 06 17:15:43 2017] [notice] Child 5388: Child process is running
+[Fri Jan 06 17:15:43 2017] [notice] Child 5388: Acquired the start mutex.
+[Fri Jan 06 17:15:43 2017] [notice] Child 5388: Starting 25 worker threads.
+[Fri Jan 06 17:15:43 2017] [notice] Child 5388: Listening on port 443.
+[Fri Jan 06 17:15:43 2017] [notice] Child 5388: Listening on port 8648.
+[Fri Jan 06 17:15:43 2017] [notice] Child 5388: Listening on port 443.
+[Fri Jan 06 17:15:43 2017] [notice] Child 5388: Listening on port 80.
+[Fri Jan 06 20:01:18 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jan 06 20:01:18 2017] [notice] Child 5388: Exit event signaled. Child process is ending.
+[Fri Jan 06 20:01:19 2017] [notice] Child 5388: Released the start mutex
+[Fri Jan 06 20:01:19 2017] [notice] Child 5388: All worker threads have exited.
+[Fri Jan 06 20:01:19 2017] [notice] Child 5388: Child process is exiting
+[Fri Jan 06 20:01:19 2017] [notice] Parent: Child process exited successfully.

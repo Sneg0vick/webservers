@@ -417,7 +417,7 @@ img.nspImage.gkResponsive {
 	color: #ddd!important;
 }
 .dark-area .nspText {
-	color: #8b8b8b;
+	color: #ffffff;
 }
 .dark-area .nspHeader a:active,
 .dark-area .nspHeader a:focus,
@@ -428,7 +428,7 @@ img.nspImage.gkResponsive {
 	color: #d82731!important;
 }
 .dark-area p.nspInfo {
-	color: #737476;	
+	color: #ffffff;	
 }
 .dark-area p.nspInfo > i {
 	color: #555;
@@ -1006,7 +1006,7 @@ img.nspImage.gkResponsive {
 	padding: 45px;
 }
 .bigtabs .gkTabsWrap ol li {  
-    background: #566673;      
+    background: #6699ff;      
 /*    background: #18191b;      */
     color: #fff;
     cursor: pointer;
@@ -1045,7 +1045,7 @@ img.nspImage.gkResponsive {
     color: #fff; 
 }
 .bigtabs .gkTabsContainer {
-	background: #18191b;
+	background: #566673;
     clear: both;
     overflow: hidden;
     position: relative;
@@ -1123,7 +1123,7 @@ img.nspImage.gkResponsive {
 
 .gkIsWrapper-gk_game figcaption > div {
 	float: right;
-	margin: 14% 0 0 0;
+	margin: 2% 0 0 0;
 	width: 50%;
 }
 
