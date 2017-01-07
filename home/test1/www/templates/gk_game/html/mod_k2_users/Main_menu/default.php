@@ -10,10 +10,42 @@
 // no direct access
 defined('_JEXEC') or die;
 
+// Add a reference to a CSS file
+// The default path is 'media/system/css/'
+//JHTML::stylesheet(rl.css, 'templates/gk_game/css/');
+$document =& JFactory::getDocument();
+$document->addStyleSheet("/templates/gk_game/css/rl.css",'text/css',"screen");
 ?>
+<style type="text/css">
+
+ul.colls { margin: 0; padding: 0; list-style-type: none; word-spacing: -1ex; }
+/* 
+    Firefox ниже версии 3 не знает о inline-block.
+    Поэтому указываем для него -moz-inline-stack
+*/
+.colls li { display: -moz-inline-stack; display: inline-block; //display: inline; }
+/*
+    Чтобы ссылки не нажимались кликом
+    по пустому месту, применим фильтр
+*/
+.colls a, .colls b { display: inline; word-spacing: normal; //display: inline-block; //filter: alpha(opacity=100); }
+.colls a, .colls b, x:-moz-any-link { display:block; }
+/*
+    Если Firefox выше 2.0, Возвращаем a и b в inline
+*/
+.colls a, .colls b, x:-moz-any-link, x:default { display: inline; }
+.colls li, .colls a, .colls b { vertical-align: top; }
+
+/* customize */
+.colls li { margin: 0 10% 0.4em 0; //margin: 0; width: 40%; //width: auto; }
+.colls a, .colls b { //margin: 0 10% 0.4em 0; //width: 40%; }
+.colls ul { width: 100%; }
+
+</style>
+
 
 <div id="k2ModuleBox<?php echo $module->id; ?>" class="k2UsersBlock<?php if($params->get('moduleclass_sfx')) echo ' '.$params->get('moduleclass_sfx'); ?>">
-	<ul class="">
+	<ul class="colls" id="colls2">
 		<?php foreach($users as $key=>$user): ?>
 		<li class="<?php echo ($key%2) ? "odd" : "even"; if(count($users)==$key+1) echo ' lastItem'; ?>">
 
@@ -24,7 +56,7 @@ defined('_JEXEC') or die;
 			<?php endif; ?>
 
 			<?php if($userName): ?>
-			<a class="ubUserName" rel="author" href="<?php echo $user->link; ?>" title="<?php echo K2HelperUtilities::cleanHtml($user->name); ?>">
+			<a class="ubUserName" rel="author" href="<?php echo $user->link; ?>" style="width:100px" title="<?php echo K2HelperUtilities::cleanHtml($user->name); ?>">
 				<?php echo $user->name; ?>
 			</a>
 			<?php endif; ?>
