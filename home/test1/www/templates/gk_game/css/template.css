@@ -857,3 +857,10 @@ span#fb-auth:hover { background-color: #556b9b; }
 .login span#fb-auth { margin: 6px 0 0 10px; }
 body[data-mobile="true"] #gkMobileMenu select { font-size: 50px; }
 #gkMobileMenu > label { display: none; }
+
+
+
+
+
+div#gkHeaderBottom {
+    border: 1px solid #ffffff;
