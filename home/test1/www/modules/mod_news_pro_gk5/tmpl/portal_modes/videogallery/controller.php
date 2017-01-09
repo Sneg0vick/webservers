@@ -56,7 +56,12 @@ class NSP_GK5_VideoGallery {
 					echo '<div class="gkBigBlock active">';
 					echo '<img class="gkIsHelperImage" src="data:image/png;base64,'. $this->generateBlankImage($this->parent->config['img_width'], $this->parent->config['img_height']) .'" alt="" />';
 					echo '<figure class="gkItem'.($this->get_video($i) != '#' ? ' video' : '').'">';
-					echo '<span class="gkImageWrap"><img src="'.$this->get_image($i).'" alt="'.htmlspecialchars(strip_tags($this->parent->content[$i]['title'])).'" data-url="'.$this->get_video($i).'" data-x="'.$this->parent->config['portal_mode_video_gallery_popup_x'].'" data-y="'.$this->parent->config['portal_mode_video_gallery_popup_y'].'" /></span>';
+					//echo '<span class="gkImageWrap"><img src="'.$this->get_image($i).'" alt="'.htmlspecialchars(strip_tags($this->parent->content[$i]['title'])).'" data-url="'.$this->get_video($i).'" data-x="'.$this->parent->config['portal_mode_video_gallery_popup_x'].'" data-y="'.$this->parent->config['portal_mode_video_gallery_popup_y'].'" /></span>';
+					echo '<span class="gkImageWrap">
+					<img src="'.$this->get_video($i).'" alt="'.htmlspecialchars(strip_tags($this->parent->content[$i]['title'])).'
+					" data-url="'.$this->get_video($i).'" data-x="'.$this->parent->config['portal_mode_video_gallery_popup_x'].'
+					" data-y="'.$this->parent->config['portal_mode_video_gallery_popup_y'].'" />
+					</span>';
 					echo '<figcaption>';
 					echo '<strong>' . $this->parent->content[$i]['catname'] . '</strong>';
 					echo '<h3><a href="'.$this->get_link($i).'" title="'.htmlspecialchars(strip_tags($this->parent->content[$i]['title'])).'">'.$title.'</a></h3>';

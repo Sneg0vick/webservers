@@ -729,3 +729,69 @@ InnoDB: buffer...
 170107 17:30:58 [Note] Event Scheduler: Loaded 0 events
 170107 17:30:58 [Note] \usr\local\mysql-5.5\bin\mysqld.exe: ready for connections.
 Version: '5.5.25'  socket: ''  port: 3306  MySQL Community Server (GPL)
+170108 14:01:24 [Note] Plugin 'FEDERATED' is disabled.
+170108 14:01:24 InnoDB: The InnoDB memory heap is disabled
+170108 14:01:24 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170108 14:01:24 InnoDB: Compressed tables use zlib 1.2.3
+170108 14:01:24 InnoDB: Initializing buffer pool, size = 128.0M
+170108 14:01:24 InnoDB: Completed initialization of buffer pool
+170108 14:01:24 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+170108 14:01:24  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+170108 14:01:25  InnoDB: Waiting for the background threads to start
+170108 14:01:26 InnoDB: 1.1.8 started; log sequence number 150300466
+170108 14:01:26 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170108 14:01:26 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170108 14:01:26 [Note] Server socket created on IP: '127.0.0.1'.
+170108 14:01:26 [Note] Event Scheduler: Loaded 0 events
+170108 14:01:26 [Note] \usr\local\mysql-5.5\bin\mysqld.exe: ready for connections.
+Version: '5.5.25'  socket: ''  port: 3306  MySQL Community Server (GPL)
+170109 15:33:46 [Note] Plugin 'FEDERATED' is disabled.
+170109 15:33:46 InnoDB: The InnoDB memory heap is disabled
+170109 15:33:46 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170109 15:33:46 InnoDB: Compressed tables use zlib 1.2.3
+170109 15:33:46 InnoDB: Initializing buffer pool, size = 128.0M
+170109 15:33:46 InnoDB: Completed initialization of buffer pool
+170109 15:33:46 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+170109 15:33:46  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+170109 15:34:00  InnoDB: Waiting for the background threads to start
+170109 15:34:01 InnoDB: 1.1.8 started; log sequence number 158610337
+170109 15:34:01 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170109 15:34:01 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170109 15:34:01 [Note] Server socket created on IP: '127.0.0.1'.
+170109 15:34:04 [Note] Event Scheduler: Loaded 0 events
+170109 15:34:04 [Note] \usr\local\mysql-5.5\bin\mysqld.exe: ready for connections.
+Version: '5.5.25'  socket: ''  port: 3306  MySQL Community Server (GPL)
+170109 19:48:44 [Note] Plugin 'FEDERATED' is disabled.
+170109 19:48:44 InnoDB: The InnoDB memory heap is disabled
+170109 19:48:44 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+170109 19:48:44 InnoDB: Compressed tables use zlib 1.2.3
+170109 19:48:44 InnoDB: Initializing buffer pool, size = 128.0M
+170109 19:48:44 InnoDB: Completed initialization of buffer pool
+170109 19:48:44 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+170109 19:48:44  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+170109 19:48:45  InnoDB: Waiting for the background threads to start
+170109 19:48:46 InnoDB: 1.1.8 started; log sequence number 158633954
+170109 19:48:46 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+170109 19:48:46 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+170109 19:48:46 [Note] Server socket created on IP: '127.0.0.1'.
+170109 19:48:46 [Note] Event Scheduler: Loaded 0 events
+170109 19:48:46 [Note] \usr\local\mysql-5.5\bin\mysqld.exe: ready for connections.
+Version: '5.5.25'  socket: ''  port: 3306  MySQL Community Server (GPL)
