@@ -19,7 +19,7 @@
   
       #colls2 li {
 		
-		/*box-sizing: border-box;*/
+		box-sizing: border-box;
 	    /*vertical-align: top;*/
         /*float: left;*/
         /*width: 100px;*/
@@ -37,7 +37,7 @@
 		/*border: none;	*/	
 		/*margin: 0;*/
 		/*padding: 0 20px;*/
-		/*display: list-item;*/
+		display: list-item;
 		/*display: block;*/
 		/*display: inline-block;*/
 		/*line-height:1.5em;*/
@@ -47,7 +47,7 @@
 		}
 
 	a.ubUserName{
-		/*word-wrap: break-word;*/
+		word-wrap: break-word;
 		/*width: 50px;*/
 		/*transition: color 0.2s linear;*/
 		/*text-decoration: none;*/
@@ -65,7 +65,7 @@
 	}
 
 	a.k2Avatar.ubUserAvatar{
-		/*height:100px;*/
-		/*width:100px;*/
+		height:100px;
+		width:100px;
 
 	}
