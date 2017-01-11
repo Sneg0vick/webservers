@@ -741,6 +741,7 @@ div.content { clear: both; }
 	 margin: 42px 0 0;
     overflow: hidden;
     padding: 12px 0 0;
+	word-wrap: break-word;
 }
 
 #login-form ul li {

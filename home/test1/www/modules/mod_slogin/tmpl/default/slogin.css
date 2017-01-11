@@ -31,7 +31,7 @@ div.slogin-clear{
 }
 .jlslogin #modlgn-username
 {
-    background: #FFFFFF;
+    background: #ffffff;
     border: 1px solid #DDDDDD;
     color: #444444;
     height: 30px;
@@ -72,7 +72,8 @@ div.slogin-clear{
     display: block;
     float: left;
     margin-right: 10px;
-    width: 20%;
+    width: 100%;
+	word-wrap: break-word;	
 }
 
 .jlslogin .userdata #form-login-username label
@@ -80,7 +81,8 @@ div.slogin-clear{
     display: block;
     float: left;
     margin-right: 10px;
-    width: 20%;
+    width: 100%;
+	word-wrap: break-word;
 }
 
 .slogin-buttons span {
