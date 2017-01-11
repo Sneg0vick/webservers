@@ -99,6 +99,7 @@ iframe { max-width: 100%!important; }
 	box-sizing: border-box;
 	margin: 0 auto!important;
 	padding: 0;
+	
 }
 #gkHeader {
 	-webkit-box-sizing: border-box;
@@ -124,6 +125,7 @@ iframe { max-width: 100%!important; }
 	position: relative;
 	width: 100%;
 	z-index: 20;
+
 }
 #gkPageContent:first-child {
 	margin-top: 126px!important;
@@ -283,7 +285,9 @@ iframe { max-width: 100%!important; }
 }
 /* Sidebars */
 #gkInset {
-	background: #18191b;
+	background: #26b1ce;
+	border:2px solid #ffffff;
+
 }
 
 /* Stylearea */
@@ -864,6 +868,7 @@ body[data-mobile="true"] #gkMobileMenu select { font-size: 50px; }
 
 div#gkHeaderBottom {
     border: 2px solid #ffffff;
+	border-width: 0px 2px 2px 2px; /* Толщина границы */
 }
 .bigtabs .gkTabsWrap ol li {
 	border: 1px solid #ffffff;
@@ -886,4 +891,7 @@ div#gkHeaderBottom {
 
 #gkBannerLeft {
 	background:#26b1ce;
+}
+#gkPageContent.gkPage{
+	box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);	
 }
