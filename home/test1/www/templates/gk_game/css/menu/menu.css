@@ -101,7 +101,8 @@
 
 /* main menu CSS */
 .gkMenu > ul > li.active > a {
-	color: #fff;	
+	color: #fff;
+    font-weight: bold	
 }
 .gkMenu > ul > li > a {
 	-webkit-transition: all 0.3s ease-out;

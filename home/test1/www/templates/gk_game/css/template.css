@@ -21,6 +21,7 @@ body {
 	min-height: 100%;
 	padding: 0;
 	word-wrap: break-word;
+	font: 13px Arial, "Helvetica Neue", helvetica, "Lucida Grande", tahoma, sans-serif;
 }
 #gkBg {
 	background: #26b1ce /*url('../images/header_bg.jpg') no-repeat center 0;*/
