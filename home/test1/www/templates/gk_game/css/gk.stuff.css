@@ -1351,8 +1351,16 @@ img.nspImage.gkResponsive {
 	content: "\f099";
 }
 .gk-social a.gk-facebook:before {
+	color: #63cdf1;
+	content: "\f230";
+}
+.gk-social a.gk-ok:before {
+	color: #63cdf1;
+	content: "\f263";
+}
+.gk-social a.gk-vk:before {
 	color: #507cbe;
-	content: "\f082";
+	content: "\f189";
 }
 .gk-social a.gk-youtube:before {
 	color: #fe0000;
