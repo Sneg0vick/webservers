@@ -237,6 +237,8 @@
   <div class="k2-ajax-search-container">
    <form id="search-form<?php echo $module->id; ?>" action="<?php echo $searchformurl ?>" method="get" onSubmit="return false;">
     <div class="k2-ajax-search-inner">
+
+      <input type="text" name="searchword" id="search-area<?php echo $module->id; ?>" value="" autocomplete="off" />
     <?php 
     	if ($hidecatchooser==0 && !empty($categorieslist)) {
     		foreach($categorieslist as $key=>$categorylist){  			
@@ -257,13 +259,11 @@
         }
       }
     ?>
-      <input type="text" name="searchword" id="search-area<?php echo $module->id; ?>" value="" autocomplete="off" />
       <?php if ($showfromdate == 1) : ?><input type="text" name="fromdate" id="from_date<?php echo $module->id; ?>" placeholder="<?php echo $fromdatechoosercaption; ?>" /><?php endif; ?>
       <?php if ($showtodate == 1) : ?><input type="text" name="todate" id="to_date<?php echo $module->id; ?>" placeholder="<?php echo $todatechoosercaption; ?>" /><?php endif; ?>
       <?php if ($showexactdate == 1) : ?><input type="text" name="exactdate" id="exact_date<?php echo $module->id; ?>" placeholder="<?php echo $exactdatechoosercaption; ?>" /><?php endif; ?>
 	  <input type="hidden" name="option" value="com_k2ajaxsearch" />
 	  <input type="hidden" name="module_id" value="<?php echo $module->id; ?>" />
-
       <div id="search-area-close<?php echo $module->id; ?>"></div>
       <div id="ajax-search-button<?php echo $module->id; ?>"><div class="magnifier"></div></div>
       <div class="ajax-clear"></div>

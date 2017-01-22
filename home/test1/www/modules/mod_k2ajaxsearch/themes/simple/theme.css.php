@@ -413,6 +413,7 @@ endif; ?>
   position: absolute;
   cursor: pointer;
   visibility: hidden;
+#visibility:visible;
 }
 
 #ajax-search-button<?php echo $module->id; ?>{
@@ -463,6 +464,7 @@ endif; ?>
   left:0px;
   margin-top: 2px;
   visibility: hidden;
+#visibility:visible;
   text-decoration: none;
   z-index:1000;
   font-size:12px;
@@ -737,6 +739,7 @@ foreach($extrafieldlist as $extrafield): ?>
   top:0px;
   left:0px;
   visibility: hidden;
+#visibility:visible;
   text-decoration: none;
   text-align: left;
   z-index:1001;
@@ -757,6 +760,7 @@ foreach($categories as $key=>$category): ?>
   top:0px;
   left:0px;
   visibility: hidden;
+#visibility:visible;
   text-decoration: none;
   text-align: left;
   z-index:1001;
