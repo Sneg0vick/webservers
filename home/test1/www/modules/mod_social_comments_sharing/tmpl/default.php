@@ -357,14 +357,14 @@ if ($enable_pinterest) {
 //////////////////END pinterest button\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ?>
 
-<noscript>Javascript is required to use Joomla Social Comments and Sharing<a href="http://ordasoft.com/joomla-social-comments-and-sharing.html">Joomla module for  Social media integration </a>,
+<!--noscript>Javascript is required to use Joomla Social Comments and Sharing<a href="http://ordasoft.com/joomla-social-comments-and-sharing.html">Joomla module for  Social media integration </a>,
     <a href="http://ordasoft.com/joomla-social-comments-and-sharing.html">Joomla Social Comments and Sharing - share and comment on Joomla site to social media: Facebook, Twitter, LinkedI,Vkontakte, Odnoklassniki</a>
-</noscript>
+</noscript-->
 <div id="mainF">
     <div id="mainCom"> <?php echo $htmlCode; ?> </div>
     <div id="FbComBox"> <?php echo $htmlCodeComBox; ?> </div>
 </div>
-<div style="text-align: center;"><a href="http://ordasoft.com" style="font-size: 10px;">Powered by OrdaSoft!</a></div>
+<!--div style="text-align: center;"><a href="http://ordasoft.com" style="font-size: 10px;">Powered by OrdaSoft!</a></div-->
 <!--               CSS for all block-->
     <style type="text/css">
     #mainF a[class^=ig-b-] {

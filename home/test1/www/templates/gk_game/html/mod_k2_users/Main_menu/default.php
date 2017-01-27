@@ -48,7 +48,7 @@ ul.colls { margin: 0; padding: 0; list-style-type: none; word-spacing: -1ex; }
 	<ul class="colls" id="colls2">
 		<?php foreach($users as $key=>$user): ?>
 		<li class="<?php echo ($key%2) ? "odd" : "even"; if(count($users)==$key+1) echo ' lastItem'; ?>">
-
+			<div>
 			<?php if($userAvatar && !empty($user->avatar)): ?>
 			<a class="k2Avatar ubUserAvatar" rel="author" href="<?php echo $user->link; ?>" title="<?php echo K2HelperUtilities::cleanHtml($user->name); ?>">
 				<img src="<?php echo $user->avatar; ?>" alt="<?php echo K2HelperUtilities::cleanHtml($user->name); ?>" style="width:<?php echo $avatarWidth; ?>px;height:auto;" />
@@ -59,6 +59,7 @@ ul.colls { margin: 0; padding: 0; list-style-type: none; word-spacing: -1ex; }
 			<a class="ubUserName" rel="author" href="<?php echo $user->link; ?>" style="width:100px" title="<?php echo K2HelperUtilities::cleanHtml($user->name); ?>">
 				<?php echo $user->name; ?>
 			</a>
+			</div>
 			<?php endif; ?>
 
 			<?php if($userDescription && $user->description): ?>

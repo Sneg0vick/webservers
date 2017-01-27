@@ -1,30 +1,27 @@
-[Sun Jan 22 11:04:26 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Sun Jan 22 11:04:26 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Sun Jan 22 11:04:26 2017] [notice] Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 configured -- resuming normal operations
-[Sun Jan 22 11:04:26 2017] [notice] Server built: Apr 20 2012 18:42:30
-[Sun Jan 22 11:04:26 2017] [notice] Parent: Created child process 6760
-[Sun Jan 22 11:04:26 2017] [notice] Disabled use of AcceptEx() WinSock2 API
-[Sun Jan 22 11:04:26 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Sun Jan 22 11:04:27 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Sun Jan 22 11:04:27 2017] [notice] Child 6760: Child process is running
-[Sun Jan 22 11:04:27 2017] [notice] Child 6760: Acquired the start mutex.
-[Sun Jan 22 11:04:27 2017] [notice] Child 6760: Starting 25 worker threads.
-[Sun Jan 22 11:04:27 2017] [notice] Child 6760: Listening on port 443.
-[Sun Jan 22 11:04:27 2017] [notice] Child 6760: Listening on port 8648.
-[Sun Jan 22 11:04:27 2017] [notice] Child 6760: Listening on port 443.
-[Sun Jan 22 11:04:27 2017] [notice] Child 6760: Listening on port 80.
-[Sun Jan 22 11:07:08 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/index.php/search
-[Sun Jan 22 11:10:11 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/index.php/search/k2-ajax-search-single
-[Sun Jan 22 11:16:49 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/index.php?option=com_k2&view=items
-[Sun Jan 22 11:22:55 2017] [error] [client 127.0.0.1] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in Z:\\home\\test1\\www\\libraries\\joomla\\http\\transport\\curl.php on line 185, referer: http://test1/administrator/
-[Sun Jan 22 11:32:41 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/uploads, referer: http://test1/administrator/index.php?option=com_installer
-[Sun Jan 22 11:36:06 2017] [error] [client 127.0.0.1] PHP Warning:  constant() [<a href='function.constant'>function.constant</a>]: Couldn't find constant JPATH_ in Z:\\home\\test1\\www\\libraries\\cms\\installer\\adapter\\module.php on line 207, referer: http://test1/administrator/index.php?option=com_installer
-[Sun Jan 22 12:40:50 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/modules/mod_k2ajaxsearch/engine/jquery.min.map
-[Sun Jan 22 12:41:05 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/modules/mod_k2ajaxsearch/engine/jquery.min.map
-[Sun Jan 22 12:41:28 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/modules/mod_k2ajaxsearch/engine/jquery.min.map
-[Sun Jan 22 18:31:55 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
-[Sun Jan 22 18:31:55 2017] [notice] Child 6760: Exit event signaled. Child process is ending.
-[Sun Jan 22 18:31:56 2017] [notice] Child 6760: Released the start mutex
-[Sun Jan 22 18:31:57 2017] [notice] Child 6760: All worker threads have exited.
-[Sun Jan 22 18:31:57 2017] [notice] Child 6760: Child process is exiting
-[Sun Jan 22 18:31:57 2017] [notice] Parent: Child process exited successfully.
+[Tue Jan 24 18:46:04 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Tue Jan 24 18:46:04 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Tue Jan 24 18:46:04 2017] [notice] Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 configured -- resuming normal operations
+[Tue Jan 24 18:46:04 2017] [notice] Server built: Apr 20 2012 18:42:30
+[Tue Jan 24 18:46:04 2017] [notice] Parent: Created child process 3528
+[Tue Jan 24 18:46:04 2017] [notice] Disabled use of AcceptEx() WinSock2 API
+[Tue Jan 24 18:46:05 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Tue Jan 24 18:46:05 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Tue Jan 24 18:46:05 2017] [notice] Child 3528: Child process is running
+[Tue Jan 24 18:46:05 2017] [notice] Child 3528: Acquired the start mutex.
+[Tue Jan 24 18:46:05 2017] [notice] Child 3528: Starting 25 worker threads.
+[Tue Jan 24 18:46:05 2017] [notice] Child 3528: Listening on port 443.
+[Tue Jan 24 18:46:05 2017] [notice] Child 3528: Listening on port 8648.
+[Tue Jan 24 18:46:05 2017] [notice] Child 3528: Listening on port 443.
+[Tue Jan 24 18:46:05 2017] [notice] Child 3528: Listening on port 80.
+[Wed Jan 25 19:23:17 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/index.php/search/advanced-search-page
+[Wed Jan 25 19:24:35 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/index.php/search/advanced-search-page
+[Fri Jan 27 16:14:34 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/images/favicon.ico, referer: http://test1/
+[Fri Jan 27 16:15:05 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/images/favicon.ico
+[Fri Jan 27 16:15:05 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/images/favicon.ico
+[Fri Jan 27 17:08:59 2017] [error] [client 127.0.0.1] PHP Warning:  Invalid argument supplied for foreach() in Z:\\home\\test1\\www\\components\\com_mailto\\helpers\\mailto.php on line 91, referer: http://test1/index.php/all-lessons/itemlist/category/49-beginner
+[Fri Jan 27 18:43:11 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jan 27 18:43:11 2017] [notice] Child 3528: Exit event signaled. Child process is ending.
+[Fri Jan 27 18:43:12 2017] [notice] Child 3528: Released the start mutex
+[Fri Jan 27 18:43:12 2017] [notice] Child 3528: All worker threads have exited.
+[Fri Jan 27 18:43:12 2017] [notice] Child 3528: Child process is exiting
+[Fri Jan 27 18:43:13 2017] [notice] Parent: Child process exited successfully.

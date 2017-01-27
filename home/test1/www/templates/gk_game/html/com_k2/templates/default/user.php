@@ -36,9 +36,9 @@ $user = JFactory::getUser();
 								<?php if ($this->params->get('userEmail')): ?>
 								<span class="itemAuthorEmail"> <?php echo JText::_('K2_EMAIL'); ?>: <?php echo JHTML::_('Email.cloak', $this->user->email); ?> </span>
 								<?php endif; ?>
-								<?php if ($this->params->get('userURL') && isset($this->user->profile->url)): ?>
-								<span class="itemAuthorURL"> <?php echo JText::_('K2_WEBSITE_URL'); ?>: <a href="<?php echo $this->user->profile->url; ?>" target="_blank" rel="me"><?php echo $this->user->profile->url; ?></a> </span>
-								<?php endif; ?>
+								<!--?php if ($this->params->get('userURL') && isset($this->user->profile->url)): ?>
+								<!--span class="itemAuthorURL"> <!--?php echo JText::_('K2_WEBSITE_URL'); ?>: <a href="<!--?php echo $this->user->profile->url; ?>" target="_blank" rel="me"><!--?php echo $this->user->profile->url; ?></a> </span>
+								<!--?php endif; ?-->
 						</div>
 						<?php echo $this->user->event->K2UserDisplay; ?> </div>
 		</div>

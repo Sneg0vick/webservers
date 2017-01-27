@@ -98,51 +98,7 @@ $fblang   = $gkparams->get('fb_lang', 'en_US');
           </div>
           <?php endif; ?>
           
-          <?php if($params->get('itemTwitterButton',1) || $params->get('itemFacebookButton',1) || $params->get('itemGooglePlusOneButton',1)): ?>
-          <div class="itemSocialSharing">
-              <?php if($params->get('itemRating')): ?>
-              <div class="itemRatingBlock"> <span><?php echo JText::_('K2_RATE_THIS_ITEM'); ?></span>
-                    <div class="itemRatingForm">
-                          <ul class="itemRatingList">
-                                <li class="itemCurrentRating" id="itemCurrentRating<?php echo $this->item->id; ?>" style="width:<?php echo $this->item->votingPercentage; ?>%;"></li>
-                                <li> <a href="#" rel="<?php echo $this->item->id; ?>" title="<?php echo JText::_('K2_1_STAR_OUT_OF_5'); ?>" class="one-star">1</a> </li>
-                                <li> <a href="#" rel="<?php echo $this->item->id; ?>" title="<?php echo JText::_('K2_2_STARS_OUT_OF_5'); ?>" class="two-stars">2</a> </li>
-                                <li> <a href="#" rel="<?php echo $this->item->id; ?>" title="<?php echo JText::_('K2_3_STARS_OUT_OF_5'); ?>" class="three-stars">3</a> </li>
-                                <li> <a href="#" rel="<?php echo $this->item->id; ?>" title="<?php echo JText::_('K2_4_STARS_OUT_OF_5'); ?>" class="four-stars">4</a> </li>
-                                <li> <a href="#" rel="<?php echo $this->item->id; ?>" title="<?php echo JText::_('K2_5_STARS_OUT_OF_5'); ?>" class="five-stars">5</a> </li>
-                          </ul>
-                          <div id="itemRatingLog<?php echo $this->item->id; ?>" class="itemRatingLog"> <?php echo $this->item->numOfvotes; ?> </div>
-                    </div>
-              </div>
-              <?php endif; ?>
-              
-              <?php if($this->item->params->get('itemTwitterButton',1)): ?>
-              <!-- Twitter Button -->
-              <div class="itemTwitterButton">
-                <a href="https://twitter.com/share" class="twitter-share-button" data-via="<?php if($this->item->params->get('twitterUsername')) echo $this->item->params->get('twitterUsername'); ?>"><?php echo JText::_('K2_TWEET'); ?></a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-              </div>
-              <?php endif; ?>
 
-              <?php if($this->item->params->get('itemFacebookButton',1)): ?>
-              <!-- Facebook Button -->
-              <div class="itemFacebookButton">
-                <div id="fb-root"></div>
-                <script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)) return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script>
-                <div class="fb-like" data-width="200" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-              </div>
-              <?php endif; ?>
-
-              <?php if($this->item->params->get('itemGooglePlusOneButton',1)): ?>
-              <!-- Google +1 Button -->
-              <div class="itemGooglePlusOneButton">
-                <div class="g-plusone" data-size="medium" width="120"></div>
-                <script>(function(){var po=document.createElement('script');po.type='text/javascript';po.async=true;po.src='https://apis.google.com/js/platform.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,s);})();</script>
-              </div>
-              <?php endif; ?>
-
-          </div>
-          <?php endif; ?>
           
           
           <?php echo $this->item->event->AfterDisplayTitle; ?> <?php echo $this->item->event->K2AfterDisplayTitle; ?>
@@ -153,9 +109,7 @@ $fblang   = $gkparams->get('fb_lang', 'en_US');
                     <div class="itemIntroText"> <?php echo $this->item->introtext; ?> </div>
                     <?php endif; ?>
                     <?php endif; ?>
-                    <?php if($params->get('itemFullText')): ?>
-                    <div class="itemFullText"> <?php echo (!empty($this->item->fulltext)) ? $this->item->fulltext : $this->item->introtext; ?> </div>
-                    <?php endif; ?>
+
                     
                     <?php if($params->get('itemVideo') && !empty($this->item->video)): ?>
                     <div class="itemVideoBlock" id="itemVideoAnchor">
@@ -172,6 +126,10 @@ $fblang   = $gkparams->get('fb_lang', 'en_US');
                               <span class="itemVideoCredits"><?php echo $this->item->video_credits; ?></span>
                               <?php endif; ?>
                     </div>
+                    <?php endif; ?>
+					
+                    <?php if($params->get('itemFullText')): ?>
+                    <div class="itemFullText"> <?php echo (!empty($this->item->fulltext)) ? $this->item->fulltext : $this->item->introtext; ?> </div>
                     <?php endif; ?>
                     
                     <?php if(($params->get('itemDateModified') && intval($this->item->modified)!=0)): ?>
@@ -253,6 +211,50 @@ $fblang   = $gkparams->get('fb_lang', 'en_US');
                               <?php endif; ?>
                     </div>
                     <?php endif; ?>
+					
+					
+					
+					
+          <?php if($params->get('itemTwitterButton',1) || $params->get('itemFacebookButton',1) || $params->get('itemGooglePlusOneButton',1)): ?>
+          <div class="itemSocialSharing">
+              <?php if($params->get('itemRating')): ?>
+              <div class="itemRatingBlock"> <span><?php echo JText::_('K2_RATE_THIS_ITEM'); ?></span>
+                    <div class="itemRatingForm">
+                          <ul class="itemRatingList">
+                                <li class="itemCurrentRating" id="itemCurrentRating<?php echo $this->item->id; ?>" style="width:<?php echo $this->item->votingPercentage; ?>%;"></li>
+                                <li> <a href="#" rel="<?php echo $this->item->id; ?>" title="<?php echo JText::_('K2_1_STAR_OUT_OF_5'); ?>" class="one-star">1</a> </li>
+                                <li> <a href="#" rel="<?php echo $this->item->id; ?>" title="<?php echo JText::_('K2_2_STARS_OUT_OF_5'); ?>" class="two-stars">2</a> </li>
+                                <li> <a href="#" rel="<?php echo $this->item->id; ?>" title="<?php echo JText::_('K2_3_STARS_OUT_OF_5'); ?>" class="three-stars">3</a> </li>
+                                <li> <a href="#" rel="<?php echo $this->item->id; ?>" title="<?php echo JText::_('K2_4_STARS_OUT_OF_5'); ?>" class="four-stars">4</a> </li>
+                                <li> <a href="#" rel="<?php echo $this->item->id; ?>" title="<?php echo JText::_('K2_5_STARS_OUT_OF_5'); ?>" class="five-stars">5</a> </li>
+                          </ul>
+                          <div id="itemRatingLog<?php echo $this->item->id; ?>" class="itemRatingLog"> <?php echo $this->item->numOfvotes; ?> </div>
+                    </div>
+              </div>
+              <?php endif; ?>
+              
+			  
+			  
+          <?php 
+          	$document = JFactory::getDocument();
+          	$renderer = $document->loadRenderer('modules');
+          	if($document->countModules('article_inset')) {
+          		echo '<aside id="gkArticleInset">';
+          		echo $renderer->render('article_inset', array('style' => 'gk_style'), null); 
+          		echo '</aside>';
+          	}
+          ?>			  
+			  
+			  
+			  
+
+			  
+
+          </div>
+          <?php endif; ?>					
+					
+					
+					
                     <?php if($params->get('itemRelated') && isset($this->relatedItems)): ?>
                     <div class="itemAuthorContent">
                               <h3><?php echo JText::_("K2_RELATED_ITEMS_BY_TAG"); ?></h3>
@@ -295,15 +297,7 @@ $fblang   = $gkparams->get('fb_lang', 'en_US');
                     <?php endif; ?>
                     <?php echo $this->item->event->AfterDisplay; ?> <?php echo $this->item->event->K2AfterDisplay; ?> </div>
           
-          <?php 
-          	$document = JFactory::getDocument();
-          	$renderer = $document->loadRenderer('modules');
-          	if($document->countModules('article_inset')) {
-          		echo '<aside id="gkArticleInset">';
-          		echo $renderer->render('article_inset', array('style' => 'gk_style'), null); 
-          		echo '</aside>';
-          	}
-          ?>
+
           
           
           <?php if($params->get('itemComments') && ( ($params->get('comments') == '2' && !$this->user->guest) || ($params->get('comments') == '1'))):?>

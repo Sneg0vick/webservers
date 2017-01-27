@@ -86,6 +86,7 @@ if($this->API->get('js_compression', '0') == 1 ) {
 
 ?>
 
+<link rel="shortcut icon" href="/templates/gk_game/images/logo_top.ico" type="image/x-icon">
 <!--[if IE 9]>
 <link rel="stylesheet" href="<?php echo $this->API->URLtemplate(); ?>/css/ie/ie9.css" type="text/css" />
 <![endif]-->
