@@ -1,27 +1,21 @@
-[Tue Jan 24 18:46:04 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Tue Jan 24 18:46:04 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Tue Jan 24 18:46:04 2017] [notice] Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 configured -- resuming normal operations
-[Tue Jan 24 18:46:04 2017] [notice] Server built: Apr 20 2012 18:42:30
-[Tue Jan 24 18:46:04 2017] [notice] Parent: Created child process 3528
-[Tue Jan 24 18:46:04 2017] [notice] Disabled use of AcceptEx() WinSock2 API
-[Tue Jan 24 18:46:05 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Tue Jan 24 18:46:05 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Tue Jan 24 18:46:05 2017] [notice] Child 3528: Child process is running
-[Tue Jan 24 18:46:05 2017] [notice] Child 3528: Acquired the start mutex.
-[Tue Jan 24 18:46:05 2017] [notice] Child 3528: Starting 25 worker threads.
-[Tue Jan 24 18:46:05 2017] [notice] Child 3528: Listening on port 443.
-[Tue Jan 24 18:46:05 2017] [notice] Child 3528: Listening on port 8648.
-[Tue Jan 24 18:46:05 2017] [notice] Child 3528: Listening on port 443.
-[Tue Jan 24 18:46:05 2017] [notice] Child 3528: Listening on port 80.
-[Wed Jan 25 19:23:17 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/index.php/search/advanced-search-page
-[Wed Jan 25 19:24:35 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/index.php/search/advanced-search-page
-[Fri Jan 27 16:14:34 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/images/favicon.ico, referer: http://test1/
-[Fri Jan 27 16:15:05 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/images/favicon.ico
-[Fri Jan 27 16:15:05 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/images/favicon.ico
-[Fri Jan 27 17:08:59 2017] [error] [client 127.0.0.1] PHP Warning:  Invalid argument supplied for foreach() in Z:\\home\\test1\\www\\components\\com_mailto\\helpers\\mailto.php on line 91, referer: http://test1/index.php/all-lessons/itemlist/category/49-beginner
-[Fri Jan 27 18:43:11 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
-[Fri Jan 27 18:43:11 2017] [notice] Child 3528: Exit event signaled. Child process is ending.
-[Fri Jan 27 18:43:12 2017] [notice] Child 3528: Released the start mutex
-[Fri Jan 27 18:43:12 2017] [notice] Child 3528: All worker threads have exited.
-[Fri Jan 27 18:43:12 2017] [notice] Child 3528: Child process is exiting
-[Fri Jan 27 18:43:13 2017] [notice] Parent: Child process exited successfully.
+[Fri Jan 27 18:45:19 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Fri Jan 27 18:45:19 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Fri Jan 27 18:45:19 2017] [notice] Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 configured -- resuming normal operations
+[Fri Jan 27 18:45:19 2017] [notice] Server built: Apr 20 2012 18:42:30
+[Fri Jan 27 18:45:19 2017] [notice] Parent: Created child process 2864
+[Fri Jan 27 18:45:19 2017] [notice] Disabled use of AcceptEx() WinSock2 API
+[Fri Jan 27 18:45:20 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Fri Jan 27 18:45:20 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Fri Jan 27 18:45:20 2017] [notice] Child 2864: Child process is running
+[Fri Jan 27 18:45:20 2017] [notice] Child 2864: Acquired the start mutex.
+[Fri Jan 27 18:45:20 2017] [notice] Child 2864: Starting 25 worker threads.
+[Fri Jan 27 18:45:20 2017] [notice] Child 2864: Listening on port 443.
+[Fri Jan 27 18:45:20 2017] [notice] Child 2864: Listening on port 8648.
+[Fri Jan 27 18:45:20 2017] [notice] Child 2864: Listening on port 443.
+[Fri Jan 27 18:45:20 2017] [notice] Child 2864: Listening on port 80.
+[Sun Jan 29 16:33:49 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jan 29 16:33:49 2017] [notice] Child 2864: Exit event signaled. Child process is ending.
+[Sun Jan 29 16:33:50 2017] [notice] Child 2864: Released the start mutex
+[Sun Jan 29 16:33:50 2017] [notice] Child 2864: All worker threads have exited.
+[Sun Jan 29 16:33:50 2017] [notice] Child 2864: Child process is exiting
+[Sun Jan 29 16:33:50 2017] [notice] Parent: Child process exited successfully.

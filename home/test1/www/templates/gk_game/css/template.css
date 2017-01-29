@@ -909,8 +909,18 @@ div#gkHeaderBottom {
     color: #26b1ce;
 	background:#ffffff;
 }
-.nspArt>p.nspText.tleft.fleft{
+.nspArt>p.nspText{
 	border: 1px solid #26b1ce;
+	margin-bottom: 5px;
+}
+
+div.nspMain.color-bg1.list.activated p.nspText.tleft.fleft{
+	border: 1px solid #ffffff;
+	margin-bottom: 5px;
+}
+div.nspMain.color-bg1.list.activated p.nspText.tleft.fleft:hover{
+	border: 1px solid #ffffff;
+	color:#555;
 	margin-bottom: 5px;
 }
 
@@ -923,8 +933,8 @@ div#gkHeaderBottom {
 div.custom.all_lessons_bottom1 a{
 	border: 1px solid #ffffff;	
     color: #ffffff;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -933,53 +943,53 @@ div.custom.all_lessons_bottom1 a:hover{
 	border: 1px solid #ffffff;	
     color: #26b1ce;
 	background:#ffffff;	
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
     padding-top: 5px;
     padding-bottom: 5px;	
 }
 
 
-
-div.custom.all_lessons_bottom2{
-	border: 1px solid #ffffff;	
-    color: #ffffff;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+#k2Container > div.itemBody{
+	width: 100%;
 }
 
-div.custom.all_lessons_bottom2:hover{
-	border: 1px solid #ffffff;	
-    color: #26b1ce;
-	background:#ffffff;	
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-div.custom.all_lessons_bottom2 a{
-	/*border: 1px solid #ffffff;*/
-    color: #ffffff;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-div.custom.all_lessons_bottom2:hover a{
-	/*border: 1px solid #ffffff;*/	
-    color: #26b1ce;
-	background:#ffffff;	
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;	
+#gkArticleInset{
+	padding-bottom:0px;
+	padding-top:0px;
 }
 
 
 div.itemSocialSharing aside#gkArticleInset{
-	
     width: 60%;
+}
 
+#k2Container > div.itemBody > div.itemSocialSharing{
+	
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+
+}
+
+#gkArticleInset > div.box{
+margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+ margin-left: 30px;
+    margin-bottom: 0px;
+	
+}
+
+#vkshare0 > tbody > tr > td:nth-child(1),
+#vkshare0 > tbody > tr > td:nth-child(2),
+#vkshare0 > tbody > tr > td:nth-child(3){
+	    border-bottom-width: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+	    padding-right: 0px;
+		padding-left: 0px;
 }
