@@ -930,6 +930,9 @@ div.nspMain.color-bg1.list.activated p.nspText.tleft.fleft:hover{
 #gkPageContent.gkPage{
 	box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8),  0 12px 8px -4px rgba(31, 73, 125, 0.8);	
 }
+
+
+
 div.custom.all_lessons_bottom1 a{
 	border: 1px solid #ffffff;	
     color: #ffffff;
@@ -938,7 +941,6 @@ div.custom.all_lessons_bottom1 a{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
 div.custom.all_lessons_bottom1 a:hover{
 	border: 1px solid #ffffff;	
     color: #26b1ce;
@@ -948,6 +950,29 @@ div.custom.all_lessons_bottom1 a:hover{
     padding-top: 5px;
     padding-bottom: 5px;	
 }
+
+div.custom.all_lessons_mainbody_bottom a{
+	border: 1px solid #26b1ce;	
+    color: #26b1ce;
+	background:#ffffff;	
+	
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+div.custom.all_lessons_mainbody_bottom a:hover{
+	border: 1px solid #ffffff;	
+    color: #ffffff;
+	background:#26b1ce;	
+	
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
 
 
 #k2Container > div.itemBody{
@@ -965,31 +990,27 @@ div.itemSocialSharing aside#gkArticleInset{
 }
 
 #k2Container > div.itemBody > div.itemSocialSharing{
-	
     padding-bottom: 0px;
     padding-top: 0px;
     margin-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
-
-
 }
 
 #gkArticleInset > div.box{
-margin-top: 0px;
+	margin-top: 0px;
     padding-top: 30px;
     padding-bottom: 0px;
- margin-left: 30px;
+	margin-left: 30px;
     margin-bottom: 0px;
-	
 }
 
 #vkshare0 > tbody > tr > td:nth-child(1),
 #vkshare0 > tbody > tr > td:nth-child(2),
 #vkshare0 > tbody > tr > td:nth-child(3){
-	    border-bottom-width: 0px;
+	border-bottom-width: 0px;
     padding-bottom: 0px;
     padding-top: 0px;
-	    padding-right: 0px;
-		padding-left: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
 }

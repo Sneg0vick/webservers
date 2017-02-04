@@ -1,21 +1,78 @@
-[Fri Jan 27 18:45:19 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Fri Jan 27 18:45:19 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Fri Jan 27 18:45:19 2017] [notice] Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 configured -- resuming normal operations
-[Fri Jan 27 18:45:19 2017] [notice] Server built: Apr 20 2012 18:42:30
-[Fri Jan 27 18:45:19 2017] [notice] Parent: Created child process 2864
-[Fri Jan 27 18:45:19 2017] [notice] Disabled use of AcceptEx() WinSock2 API
-[Fri Jan 27 18:45:20 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Fri Jan 27 18:45:20 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
-[Fri Jan 27 18:45:20 2017] [notice] Child 2864: Child process is running
-[Fri Jan 27 18:45:20 2017] [notice] Child 2864: Acquired the start mutex.
-[Fri Jan 27 18:45:20 2017] [notice] Child 2864: Starting 25 worker threads.
-[Fri Jan 27 18:45:20 2017] [notice] Child 2864: Listening on port 443.
-[Fri Jan 27 18:45:20 2017] [notice] Child 2864: Listening on port 8648.
-[Fri Jan 27 18:45:20 2017] [notice] Child 2864: Listening on port 443.
-[Fri Jan 27 18:45:20 2017] [notice] Child 2864: Listening on port 80.
-[Sun Jan 29 16:33:49 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
-[Sun Jan 29 16:33:49 2017] [notice] Child 2864: Exit event signaled. Child process is ending.
-[Sun Jan 29 16:33:50 2017] [notice] Child 2864: Released the start mutex
-[Sun Jan 29 16:33:50 2017] [notice] Child 2864: All worker threads have exited.
-[Sun Jan 29 16:33:50 2017] [notice] Child 2864: Child process is exiting
-[Sun Jan 29 16:33:50 2017] [notice] Parent: Child process exited successfully.
+[Sat Feb 04 10:52:19 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Sat Feb 04 10:52:20 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Sat Feb 04 10:52:20 2017] [notice] Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 configured -- resuming normal operations
+[Sat Feb 04 10:52:20 2017] [notice] Server built: Apr 20 2012 18:42:30
+[Sat Feb 04 10:52:20 2017] [notice] Parent: Created child process 4592
+[Sat Feb 04 10:52:20 2017] [notice] Disabled use of AcceptEx() WinSock2 API
+[Sat Feb 04 10:52:20 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Sat Feb 04 10:52:20 2017] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Sat Feb 04 10:52:20 2017] [notice] Child 4592: Child process is running
+[Sat Feb 04 10:52:20 2017] [notice] Child 4592: Acquired the start mutex.
+[Sat Feb 04 10:52:20 2017] [notice] Child 4592: Starting 25 worker threads.
+[Sat Feb 04 10:52:20 2017] [notice] Child 4592: Listening on port 443.
+[Sat Feb 04 10:52:20 2017] [notice] Child 4592: Listening on port 8648.
+[Sat Feb 04 10:52:20 2017] [notice] Child 4592: Listening on port 443.
+[Sat Feb 04 10:52:20 2017] [notice] Child 4592: Listening on port 80.
+[Sat Feb 04 10:58:12 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=328
+[Sat Feb 04 10:58:52 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=328
+[Sat Feb 04 11:08:38 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=328
+[Sat Feb 04 11:13:34 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=327
+[Sat Feb 04 11:14:07 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=327
+[Sat Feb 04 11:16:58 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item
+[Sat Feb 04 11:35:17 2017] [error] [client 127.0.0.1] File does not exist: Z:/home/test1/www/favicon.ico, referer: http://test1/administrator/index.php
+[Sat Feb 04 11:38:49 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item
+[Sat Feb 04 11:39:35 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=292
+[Sat Feb 04 11:39:46 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=291
+[Sat Feb 04 11:40:25 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=292
+[Sat Feb 04 11:40:35 2017] [error] [client 127.0.0.1] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in Z:\\home\\test1\\www\\administrator\\components\\com_k2\\lib\\class.upload.php on line 5023, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=291
+[Sat Feb 04 11:40:41 2017] [error] [client 127.0.0.1] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in Z:\\home\\test1\\www\\libraries\\vendor\\joomla\\string\\src\\phputf8\\mbstring\\core.php on line 114, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=316
+[Sat Feb 04 11:40:46 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=317
+[Sat Feb 04 11:40:51 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=318
+[Sat Feb 04 11:41:02 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=319
+[Sat Feb 04 11:41:02 2017] [error] [client 127.0.0.1] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in Z:\\home\\test1\\www\\administrator\\components\\com_finder\\helpers\\indexer\\token.php on line 126, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=319
+[Sat Feb 04 11:41:11 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=320
+[Sat Feb 04 11:41:19 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=321
+[Sat Feb 04 11:41:26 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=322
+[Sat Feb 04 11:41:39 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=324
+[Sat Feb 04 11:41:46 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=325
+[Sat Feb 04 11:44:42 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item
+[Sat Feb 04 11:52:43 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=291
+[Sat Feb 04 11:53:16 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=323
+[Sat Feb 04 11:54:01 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=326
+[Sat Feb 04 11:55:57 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=328
+[Sat Feb 04 12:08:35 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=294
+[Sat Feb 04 12:10:47 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=293
+[Sat Feb 04 12:13:22 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=290
+[Sat Feb 04 12:15:54 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=287
+[Sat Feb 04 12:17:26 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=288
+[Sat Feb 04 12:23:13 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=289
+[Sat Feb 04 12:25:04 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=295
+[Sat Feb 04 12:26:30 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=296
+[Sat Feb 04 12:27:54 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=297
+[Sat Feb 04 12:29:22 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=298
+[Sat Feb 04 12:31:25 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=299
+[Sat Feb 04 12:32:44 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=300
+[Sat Feb 04 12:33:57 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=301
+[Sat Feb 04 12:35:01 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=302
+[Sat Feb 04 12:47:40 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=303
+[Sat Feb 04 12:49:36 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=304
+[Sat Feb 04 12:50:49 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=305
+[Sat Feb 04 12:54:05 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=306
+[Sat Feb 04 12:54:58 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=307
+[Sat Feb 04 12:56:15 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=308
+[Sat Feb 04 12:56:51 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=315
+[Sat Feb 04 12:59:09 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=311
+[Sat Feb 04 12:59:58 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=310
+[Sat Feb 04 13:01:16 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=312
+[Sat Feb 04 13:01:53 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=313
+[Sat Feb 04 13:02:35 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item&cid=314
+[Sat Feb 04 13:20:52 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item
+[Sat Feb 04 13:23:23 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item
+[Sat Feb 04 13:24:31 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item
+[Sat Feb 04 13:25:32 2017] [error] [client 127.0.0.1] PHP Warning:  strtoupper() expects parameter 1 to be string, array given in Z:\\home\\test1\\www\\libraries\\legacy\\request\\request.php on line 104, referer: http://test1/administrator/index.php?option=com_k2&view=item
+[Sat Feb 04 13:49:10 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 04 13:49:10 2017] [notice] Child 4592: Exit event signaled. Child process is ending.
+[Sat Feb 04 13:49:11 2017] [notice] Child 4592: Released the start mutex
+[Sat Feb 04 13:49:12 2017] [notice] Child 4592: All worker threads have exited.
+[Sat Feb 04 13:49:12 2017] [notice] Child 4592: Child process is exiting
+[Sat Feb 04 13:49:12 2017] [notice] Parent: Child process exited successfully.
