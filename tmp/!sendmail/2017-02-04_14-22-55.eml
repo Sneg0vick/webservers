@@ -1,0 +1,25 @@
+X-Sendmail-Cmdline: sendmail.pl -t -i -finfobiz@front.ru
+To: teacher5@mail.ru
+Subject: =?utf-8?B?0JTQsNC90L3Ri9C1INC90L7QstC+0LPQviDQv9C+0LvRjNC30L7QstCw0YI=?=  =?utf-8?B?0LXQu9GP?=
+X-PHP-Originating-Script: 0:class.phpmailer.php
+Date: Sat, 4 Feb 2017 15:22:55 +0400
+From: test1 <infobiz@front.ru>
+Message-ID: <0e1849a15d7bce5d95c43c626c8da03d@test1>
+X-Mailer: PHPMailer 5.2.14 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Здравствуйте Настя,
+
+
+Вы зарегистрированы на сайте «Englife TV».
+
+Это письмо содержит логин и пароль для доступа к сайту http://test1/
+
+Логин: teacher5
+Пароль: 0btZZRVp
+
+
+Пожалуйста, не отвечайте на это письмо. Оно было сгенерировано автоматически, исключительно с целью проинформировать вас.
+
